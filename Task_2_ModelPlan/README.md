@@ -19,6 +19,8 @@
 | File | Description |
 |---|---|
 | `Task_2_ModelPlan_Template.docx` | Official template supplied for Task 2 (preserved, never modified) |
+| `Delinquency_prediction_dataset.xlsx` | Dataset copy (re-uploaded for Task 2; differs from the Task 1 source copy — analyses use the verified copy in `Task_1_EDA/`) |
+| `Updated_Dataset_Description_Guide.pdf` | Official variable definitions used to cross-check the EDA |
 | `Task_2_ModelPlan_Completed.docx` | Completed official template — 1. Model Logic (GenAI-generated) · 2. Justification for Model Choice · 3. Evaluation Strategy (includes executed baseline Table 1) |
 | `Task_2_ModelPlan_Completed.pdf` | PDF version |
 | `task2_model_plan.py` | Reproducible script: runs the baseline sanity check **and** regenerates the completed DOCX from the template |
