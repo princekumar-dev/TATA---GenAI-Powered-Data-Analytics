@@ -21,7 +21,12 @@
 | Folder | Task | Status | Description |
 |---|---|---|---|
 | [`Task_1_EDA/`](Task_1_EDA/README.md) | **Task 1 — Exploratory Data Analysis** | ✅ Complete | Geldium delinquency dataset: data-quality assessment, missing-data treatment, EDA, risk-indicator screening, official DOCX/PDF report, analysis workbook, cleaned dataset, charts and reproducible code |
-| _Task 2 — …_ | _Coming soon_ | ⏳ | _Will be added here when assigned_ |
+| [`Task_2_ModelPlan/`](Task_2_ModelPlan/README.md) | **Task 2 — Predictive Model Plan** | ✅ Complete | Model logic (GenAI-generated), justification for a transparent logistic-regression champion + boosting challenger, and an evaluation strategy with fairness/ethics; includes an **executed** cross-validated baseline check confirming the no-skill floor |
+| _Task 3 — …_ | _Coming soon_ | ⏳ | _Will be added here when assigned_ |
+
+**Task 2 headline result:** all baseline models (dummy, logistic regression, gradient boosting) sit
+at the 0.16 no-skill PR-AUC floor on the delivered data — measured confirmation that the data
+pipeline must be fixed before any model is deployed. The plan embeds an explicit go/no-go gate.
 
 ## Quick Start (Task 1)
 

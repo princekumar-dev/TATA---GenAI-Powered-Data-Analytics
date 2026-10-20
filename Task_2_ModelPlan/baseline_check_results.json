@@ -1,0 +1,29 @@
+{
+  "n_rows": 500,
+  "positive": 80,
+  "base_rate": 0.16,
+  "folds": "5x3 repeated stratified CV",
+  "models": {
+    "Dummy (stratified)": {
+      "pr_auc_mean": 0.1644,
+      "pr_auc_std": 0.0112,
+      "roc_auc_mean": 0.4921,
+      "roc_auc_std": 0.0427,
+      "brier_mean": 0.2527
+    },
+    "Logistic Regression (balanced)": {
+      "pr_auc_mean": 0.1689,
+      "pr_auc_std": 0.0369,
+      "roc_auc_mean": 0.4449,
+      "roc_auc_std": 0.0516,
+      "brier_mean": 0.2585
+    },
+    "HistGradientBoosting": {
+      "pr_auc_mean": 0.1501,
+      "pr_auc_std": 0.0202,
+      "roc_auc_mean": 0.405,
+      "roc_auc_std": 0.0484,
+      "brier_mean": 0.167
+    }
+  }
+}
