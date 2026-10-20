@@ -28,6 +28,13 @@
 at the 0.16 no-skill PR-AUC floor on the delivered data — measured confirmation that the data
 pipeline must be fixed before any model is deployed. The plan embeds an explicit go/no-go gate.
 
+## Reference files (repo root)
+
+| File | Purpose |
+|---|---|
+| `Updated_Dataset_Description_Guide.pdf` | Official variable definitions (arrived after Task 1 was completed; definitions were re-validated against it) |
+| `Delinquency_prediction_dataset.xlsx` | Dataset copy uploaded at repo root — **content differs from the Task 1 source copy** (different checksum); kept as received. Task 1/2 analyses use the verified copy inside `Task_1_EDA/` |
+
 ## Quick Start (Task 1)
 
 ```bash

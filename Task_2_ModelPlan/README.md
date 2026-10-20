@@ -18,6 +18,7 @@
 
 | File | Description |
 |---|---|
+| `Task_2_ModelPlan_Template.docx` | Official template supplied for Task 2 (preserved, never modified) |
 | `Task_2_ModelPlan_Completed.docx` | Completed official template — 1. Model Logic (GenAI-generated) · 2. Justification for Model Choice · 3. Evaluation Strategy (includes executed baseline Table 1) |
 | `Task_2_ModelPlan_Completed.pdf` | PDF version |
 | `task2_model_plan.py` | Reproducible script: runs the baseline sanity check **and** regenerates the completed DOCX from the template |
@@ -59,5 +60,6 @@ pip install pandas numpy scikit-learn openpyxl python-docx docx2pdf
 python task2_model_plan.py     # re-runs CV and rebuilds the completed DOCX
 ```
 
-Inputs (`../Task 2_ModelPlan_Template.docx`, `../Task_1_EDA/…/Geldium_Cleaned_Dataset.xlsx`) are
-read-only; the official template is never modified.
+Inputs (`Task_2_ModelPlan_Template.docx`, bundled in this folder, and
+`../Task_1_EDA/Geldium_EDA_Outputs/Geldium_Cleaned_Dataset.xlsx`) are read-only; the official
+template is never modified.

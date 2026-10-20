@@ -29,7 +29,7 @@ from sklearn.metrics import average_precision_score, roc_auc_score, brier_score_
 
 BASE = Path(__file__).resolve().parent
 CLEAN = BASE.parent / "Task_1_EDA" / "Geldium_EDA_Outputs" / "Geldium_Cleaned_Dataset.xlsx"
-TEMPLATE = BASE.parent / "Task 2_ModelPlan_Template.docx"
+TEMPLATE = BASE / "Task_2_ModelPlan_Template.docx"
 
 # %% [markdown]
 # ## A. Baseline sanity check (actually executed)
